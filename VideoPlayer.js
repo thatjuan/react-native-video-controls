@@ -1089,7 +1089,7 @@ export default class VideoPlayer extends Component {
                 <View style={ styles.error.container }>
                     <Image source={ require( './assets/img/error-icon.png' ) } style={ styles.error.icon } />
                     <Text style={ styles.error.text }>
-                        Video unavailable
+                        Stream unavailable
                     </Text>
                 </View>
             );
